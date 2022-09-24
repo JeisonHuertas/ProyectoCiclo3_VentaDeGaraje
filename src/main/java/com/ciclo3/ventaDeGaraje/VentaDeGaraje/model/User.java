@@ -1,12 +1,22 @@
 package com.ciclo3.ventaDeGaraje.VentaDeGaraje.model;
 
+import javax.persistence.*;
+import java.util.List;
+
+@Entity
+@Table(name = "users")
 public class User {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String userName;
     private String password;
     private String email;
     private String phone;
+
+    @OneToMany(mappedBy = "user")
+    private List<Product> productList;
 
     public User() {
     }
@@ -16,7 +26,7 @@ public class User {
         this.userName = userName;
         this.password = password;
         this.email = email;
-        this.phone = phone;
+        this.phone = "0";
     }
 
     public Integer getId() {
@@ -57,6 +67,14 @@ public class User {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public List<Product> getProductList() {
+        return productList;
+    }
+
+    public void setProductList(List<Product> productList) {
+        this.productList = productList;
     }
 
     @Override

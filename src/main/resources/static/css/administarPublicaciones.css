@@ -1,0 +1,55 @@
+.btnAgregar{
+    width: 244px;
+    height: 38px;
+    margin-top: 100px;
+    border: 1.5px solid #B3B3B3;
+    border-radius: 8px;
+    background-color: none;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4D4D4D;
+    background: none ;
+}
+.tablaPublicaciones{
+    margin-top: 50px;
+}
+.btnEditar{
+    width: 54px;
+    height: 24px;
+    border: none;
+    border-radius: 100px;
+}
+.btnBorrar{
+    background-color: #F12B2C;
+}
+.btnActualizar{
+    background-color: #29CC97;
+}
+.contenedorIMGNombre{
+    display: flex;
+    align-items: center;
+}
+.contenedorIMGNombre p{
+    margin: 0;
+    margin-left: 20px;
+}
+.contenedorImg{
+    width: 56px;
+    height: 56px;
+    background-color: #2E54FF;
+    border: none;
+    border-radius: 50%;
+}
+td p{
+    margin: 0;
+    margin-top: 15px;
+}
+.contenedorBotones{
+    margin-top: 15px;
+}
+footer{
+    margin-top: 300px;
+}

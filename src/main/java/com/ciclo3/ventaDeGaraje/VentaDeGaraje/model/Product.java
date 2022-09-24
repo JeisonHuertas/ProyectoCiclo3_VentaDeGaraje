@@ -1,9 +1,14 @@
 package com.ciclo3.ventaDeGaraje.VentaDeGaraje.model;
 
+import javax.persistence.*;
 import java.util.Date;
 
+@Entity
+@Table(name = "products")
 public class Product {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String productName;
     private Double price;
@@ -11,6 +16,8 @@ public class Product {
     private Integer stock;
     private String image;
     private String description;
+
+    @ManyToOne
     private User user;
 
     public Product() {
@@ -90,6 +97,7 @@ public class Product {
     public void setUser(User user) {
         this.user = user;
     }
+
 
     @Override
     public String toString() {

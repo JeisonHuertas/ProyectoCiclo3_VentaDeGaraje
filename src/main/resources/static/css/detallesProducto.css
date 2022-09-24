@@ -1,0 +1,88 @@
+.datosProducto{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 50px;
+    column-gap: 50px;
+}
+.contenedorImagen{
+    border: solid 1px;
+    height: 400px;
+}
+.nonmbreProducto , .precio{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 36px;
+}
+.precio{
+    margin-top: 50px;
+}
+.cantidadDisponible{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B3B3B3;
+}
+.btnMas{
+    width: 24px;
+    height: 24px;
+    background: #2E54FF;
+    border-radius: 8px;
+    color: #FFF;
+}
+.btnMenos{
+    width: 24px;
+    height: 24px;
+    border: 1.5px solid #2E54FF;
+    border-radius: 8px;
+    background: none;
+}
+.controlesCantidad{
+    margin-top: 40px;
+}
+.infoVendedor{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.infoVendedor p{
+    margin: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.contenedorImgVendedor{
+    width: 56px;
+    height: 56px;
+    background-color: #2E54FF;
+    border: none;
+    border-radius: 50%;
+}
+.descripcion{
+    margin-top: 50px;
+}
+.descripcion h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.descripcion p{
+    max-width: 700px;
+    text-align: justify;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #666666;
+}
