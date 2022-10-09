@@ -1,0 +1,63 @@
+.navBotones{
+    grid-template-columns: 1fr;
+}
+.linkBtnIniciarSesion{
+    justify-self: center;
+}
+.contenedorFormulario{
+    display: grid;
+    margin-top: 50px;
+    justify-content: center;
+}
+.contenedorInputs form{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+}
+.input{
+    margin-bottom: 18px;
+    height: 60px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30px;
+    padding-left: 35px;
+}
+.contenedorFormulario h1{
+    justify-self: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+.contenedorFormulario p{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    max-width: 480px;
+}
+.inputNombre{
+    background-image: url(../resources/icons/icon-user.svg);
+}
+.inputCorreo{
+    background-image: url(../resources/icons/icon-mail.svg);
+}
+.inputContrasena{
+    background-image: url(../resources/icons/lock.svg);
+}
+.btnSubmit{
+    background-color: #24243E;
+    color: #FFF;
+}
+.btnSubmit{
+    background-image: url(../resources/icons/arrow-right\ Copy.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding-right: 35px;
+    text-align: left;
+}
+@media (max-width: 768px){
+    .contenedorFormulario{
+        margin-top: 150px;
+    }
+}

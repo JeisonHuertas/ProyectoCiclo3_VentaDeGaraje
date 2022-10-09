@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+
+body{
+    box-sizing: border-box;
+    object-fit: contain;
+    min-width: 500px;
+}
+.barraNavegacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.navLogosLinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: start;
+    align-items: center;
+}
+.navBotones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+.linkBtnIniciarSesion{
+    width: 178px;
+    justify-self: end;
+}
+.linkBtnRegistrarse{
+    width: 178px;
+    justify-self: center;
+}
+.btnIniciarSesion{
+    background-color: #FFF;
+    border: solid 1px #333333 ;
+    height: 50px;
+    width: 178px;
+    border-radius: 30px;
+    justify-self: end;
+    font-family: 'work sans', sans-serif;
+}
+.btnRegistrarse{
+    background-color: #D6001C;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    justify-self: center;
+    font-family: 'work sans', sans-serif;
+    font-size: 1rem;
+    color: #FFF;
+}
+.navEnlaces{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(70px, 150px));
+}
+.enlaceNosotros{
+    color: #333333;
+    text-decoration: none;
+    font-family: 'Work sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    justify-self: end;
+}
+.enlaceInicio{
+    color: #333333;
+    text-decoration: underline solid 2px;
+    font-family: 'work sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.contenedorLogo{
+    min-width: 100px;
+    max-width: 150px;
+}
+.seccionPrincipal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+    column-gap: 20px;
+}
+
+.seccionPrincipal-descripcion{
+    display: grid;
+    box-sizing: border-box;
+    contain: content;
+}
+.seccionPrincipal-descripcion h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59.3079px;
+    line-height: 72px;
+    color: #333333;
+}
+
+.seccionPrincipal-descripcion p{
+    margin-top: 50px;
+    font-family: 'Work Sans',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #666666;
+}
+.formularioRegistro #txtCorreo{
+    padding-left: 10px;
+    border: solid 2px #333333;
+    border-radius: 31px;
+    width: 328px;
+    height: 50px;
+    font-family: 'Work sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: .9rem;
+    line-height: 18px;
+    color: #333333;
+}
+.seccionPrincipal-descripcion .formularioRegistro{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    column-gap: 10px;
+}
+.seccionPrincipal-hero{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.seccionPrincipal-hero .contenedorHero{
+    max-width: 600px;
+    min-width: 200px;
+}
+@media (max-width: 768px) {
+    .seccionPrincipal-hero{
+        display: none;
+    }
+    .seccionPrincipal-descripcion{
+        justify-content: center;
+    }
+    .seccionPrincipal{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 425px){
+    .navEnlaces{
+        margin-left: 40px;
+    }
+    .btnRegistrarseUp{
+        display: none;
+    }
+    .seccionPrincipal{
+        margin-top: 200px;
+        grid-template-columns: 1fr;
+    }
+    .navBotones{
+        grid-template-columns: 1fr;
+    }
+}
+

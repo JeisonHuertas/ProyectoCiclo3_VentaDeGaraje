@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaft.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link th:href="@{https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css}" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{css/home.css}">
+    <link rel="stylesheet" th:href="@{css/perfil.css}">
+    <title>Perfil</title>
+</head>
+<body>
+    <main class="container">
+        <nav>
+            <div class="contenedorLogo">
+                <img width="100%" height="100%" src="./resources/images/Logo.png" alt="Logo">
+            </div>
+            <input class="inputBuscar" type="search" name="" id="" placeholder="Busca cualquier cosa...">
+            <div class="contenedorNombre">
+                <div>
+                    <img src="./resources/icons/user-smile-fill.svg" alt="">
+                </div>
+                <p>Hola, nombre</p>
+            </div>
+            <div class="contenedorFotoPerfil">
+                <img src="" alt="IM">
+            </div>
+        </nav>
+        <section>
+            <div class="contenedorUpload">
+                <div class="contenedorIMG">
+                    <img width="100%" height="100%" src="" alt="">
+                </div>
+                <button class="btnUpload"><span><img src="./resources/icons/Upload.svg" alt=""></span> Subir</button>
+            </div>
+            <div class="contenedorFormulario">
+                <form action="">
+                    <div class="contenedorInput">
+                        <label for="nombreCuenta">Nombre de la cuenta</label>
+                        <input type="text" name="nombreCuenta" id="">
+                    </div>
+                    <div class="contenedorInput">
+                        <label for="email">Email</label>
+                        <div>
+                            <input type="text" name="email" id="">
+                            <button class="btnEditar"><span><img src="./resources/icons/Group.svg" alt=""></span>Editar</button>
+                        </div>
+                    </div>
+                    <div class="contenedorInput">
+                        <label for="celular">número de celular</label>
+                        <div>
+                            <input type="text" name="celular" id="">
+                            <button class="btnEditar"><span><img src="resources/icons/Group.svg" alt=""></span>Editar</button>
+                        </div>
+                    </div>
+                    <div class="contenedorInput">
+                        <label for="contrasena">Contraseña</label>
+                        <div>
+                            <input type="text" name="contrasena" id="">
+                            <button class="btnEditar"><span><img src="./resources/icons/Group.svg" alt=""></span>Editar</button>
+                        </div>
+                    </div>
+                    <button class="btnGuardar">Guardar Cambios</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedorLinks">
+            <ul class="ListaLinks">
+                <li><a href="">VENTA DE GARAJE</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Perfil</a></li>
+            </ul>
+        </div>
+        <div class="contenedorInformacion">
+            <ul class="listaDatos">
+                <li><p>Atención al cliente</p></li>
+                <li><p>+123456789</p></li>
+                <li><p>+763528391</p></li>
+            </ul>
+        </div>
+        <h2>Venta de Garaje</h2>
+        <p>Derechos reservados 2022</p>
+    </footer>
+</body>
+</html>

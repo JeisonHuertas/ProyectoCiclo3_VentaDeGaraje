@@ -1,0 +1,20 @@
+.tituloBusqueda{
+    text-align: center;
+    margin-top: 50px;
+}
+.resultados{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.filtros{
+    width: 200px;
+}
+.min{
+    width: 80px;
+}
+.max{
+    width: 80px;
+}
+.contenedorProductos{
+    margin-top: 50px;
+}

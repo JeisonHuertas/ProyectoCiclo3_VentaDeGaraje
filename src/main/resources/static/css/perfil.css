@@ -1,0 +1,68 @@
+.contenedorUpload{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.contenedorIMG{
+    width: 76px;
+    height: 72px;
+}
+.btnUpload{
+    width: 99px;
+    height: 38px;
+    border: 1.5px solid #B3B3B3;
+    border-radius: 8px;
+    margin-left: 20px;
+    background: none;
+}
+.contenedorFormulario{
+    margin-top: 50px;
+    max-width: 600px;
+}
+.contenedorFormulario input{
+    width: 327px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1.5px solid #B3B3B3;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.contenedorInput{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedorControlesUnidades{
+    display: flex;
+    justify-content: space-between;
+}
+.btnMas{
+    width: 24px;
+    height: 24px;
+    background: #2E54FF;
+    border-radius: 8px;
+    color: #FFF;
+}
+.btnMenos{
+    width: 24px;
+    height: 24px;
+    border: 1.5px solid #2E54FF;
+    border-radius: 8px;
+    background: none;
+}
+.btnGuardar{
+    width: 176px;
+    height: 43px;
+    margin-top: 100px;
+    border: none;
+    background-color: #F6A973;
+    border-radius: 24px;
+}
+.btnEditar{
+    width: 104px;
+    height: 38px;
+    background: none;
+    border-radius: 8px;
+}
+footer{
+    margin-top: 300px;
+}

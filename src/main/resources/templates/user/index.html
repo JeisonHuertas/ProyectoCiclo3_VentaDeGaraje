@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaft.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link th:href="@{https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css}" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{css/index.css}">
+    <title>Venta de Garaje</title>
+</head>
+<body>
+    <nav class="barraNavegacion">
+        <div class="navLogosLinks">
+            <a href="/venta-de-garaje">
+            <div class="contenedorLogo">
+                <img width="100%" height="100%" src="./resources/images/Logo.png" alt="Logo Venta de Garaje">
+            </div>
+            </a>
+            <div class="navEnlaces">
+                <a href="/" class="enlaceInicio">Inicio</a>
+                <a href="/nosotros" class="enlaceNosotros">Nosotros</a>
+            </div>
+        </div>
+        <div class="navBotones">
+            <a class="linkBtnIniciarSesion" href="/iniciarSesion"><button class="btnIniciarSesion">Inicia Sesión</button></a>
+            <a class="linkBtnRegistrarse" href="/registrarse"><button class="btnRegistrarse btnRegistrarseUp">Registrarse</button></a>
+        </div>
+    </nav>
+    <section class="container seccionPrincipal">
+        <div class="seccionPrincipal-descripcion">
+            <h1>Venta de Garaje</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at ante et tortor egestas bibendum. Nam varius ut quam at dictum. Proin varius malesuada ex quis hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas nec dapibus metus.</p>
+            <div class="formularioRegistro">
+                <input type="email" name="" id="txtCorreo" placeholder="Ingresa tu correo electrónico">
+                <a class="linkBtnRegistrarse" href="/registrarse"><button class="btnRegistrarse">Registrate</button></a>
+            </div>
+        </div>
+        <div class="seccionPrincipal-hero">
+            <div class="contenedorHero">
+                <img width="100%" height="100%" src="./resources/images/ImagenInicio.png" alt="Imagen de mujer comprando ropa">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" xmlns:th="http://www.thymeleaft.org">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{css/home.css}">
+    <link rel="stylesheet" th:href="@{css/resultadosBusqueda.css}">
+    <!-- Bootstrap -->
+    <link th:href="@{https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css}" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Resultados de la Busqueda</title>
+</head>
+<body>
+    <main class="container">
+        <nav>
+            <div class="contenedorLogo">
+                <img width="100%" height="100%" src="./resources/images/Logo.png" alt="Logo">
+            </div>
+            <input class="inputBuscar" type="search" name="" id="" placeholder="Busca cualquier cosa...">
+            <div class="contenedorNombre">
+                <div>
+                    <img src="./resources/icons/user-smile-fill.svg" alt="">
+                </div>
+                <p>Hola, nombre</p>
+            </div>
+            <div class="contenedorFotoPerfil">
+                <img src="" alt="IM">
+            </div>
+        </nav>
+        <h1 class="tituloBusqueda">Busqueda</h1>
+        <section class="resultados">
+            <div class="filtros">
+                <h3>Precio</h3>
+                <form action="">
+                    <div>
+                        <input type="checkbox" name="10000-50000" id="">
+                        <label for=" 10000-50000 ">10,000 - 50,000</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="51000-100000" id="">
+                        <label for="51000-10000">51,000-100,000</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="101000-350000" id="">
+                        <label for="101000-350000">101,000-350,000</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="351000-1000000" id="">
+                        <label for="351000-1000000">351,000-1'000,000</label>
+                    </div>
+                    <div class="filtroManual">
+                        <input class="min" type="text" placeholder="min"> 
+                        <input class="max" type="text" placeholder="max">
+                    </div>
+                </form>
+            </div>
+            <div>
+                <section class="seccionProductos">
+                    <div class="container contenedorProductos">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedorLinks">
+            <ul class="ListaLinks">
+                <li><a href="">VENTA DE GARAJE</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Perfil</a></li>
+            </ul>
+        </div>
+        <div class="contenedorInformacion">
+            <ul class="listaDatos">
+                <li><p>Atención al cliente</p></li>
+                <li><p>+123456789</p></li>
+                <li><p>+763528391</p></li>
+            </ul>
+        </div>
+        <h2>Venta de Garaje</h2>
+        <p>Derechos reservados 2022</p>
+    </footer>
+</body>
+</html>

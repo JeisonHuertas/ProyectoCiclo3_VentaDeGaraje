@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaft.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link th:href="@{https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css}" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+    <link rel="stylesheet" th:href="@{/css/registro.css}">
+    <title>Resgistrarse</title>
+</head>
+<body>
+    <nav class="barraNavegacion">
+        <div class="navLogosLinks">
+            <div class="contenedorLogo">
+                <img width="100%" height="100%" src="/resources/images/Logo.png" alt="Logo Venta de Garaje">
+            </div>
+            <div class="navEnlaces">
+                <a href="/" class="enlaceInicio">Inicio</a>
+                <a href="/nosotros" class="enlaceNosotros">Nosotros</a>
+            </div>
+        </div>
+        <div class="navBotones">
+            <a class="linkBtnIniciarSesion" href="/iniciarSesion"><button class="btnIniciarSesion">Inicia Sesión</button></a>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="contenedorFormulario">
+            <h1>Registrate</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="contenedorInputs">
+                <form th:action="@{/user/signIn}" method="post">
+                    <input class="input inputNombre" type="text" name="userName" id="txtName" placeholder="Ingrese su nombre">
+                    <input class="input inputCorreo" type="email" name="email" id="txtEmail" placeholder="Ingrese su correo">
+                    <input class="input inputContrasena" type="password" name="password" id="txtPassword" placeholder="cree una contraseña">
+                    <input class="input btnSubmit" type="submit" value="Registrarse">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

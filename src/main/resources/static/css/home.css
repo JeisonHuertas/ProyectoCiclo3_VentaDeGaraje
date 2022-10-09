@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr .5fr;
+    align-items: center;
+}
+.contenedorLogo{
+    min-width: 100px;
+    max-width: 150px;
+    justify-self: center;
+}
+.inputBuscar{
+    height: 48px;
+    border: solid 1.5px #000032;
+    border-radius: 24px;
+    padding: 12px 20px;
+    background-image: url(../resources/icons/search-line.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.contenedorNombre{
+    display: flex;
+    flex-direction: row;
+    max-width: 160px;
+    height: 38px;
+    align-items: center;
+    border: solid 1.5px #000032 ;
+    border-radius: 24px;
+    justify-self: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.contenedorNombre p{
+    margin-bottom: 0px;
+}
+.contenedorFotoPerfil{
+    width: 56px;
+    height: 56px;
+    background-color: #F9E4D3;
+    border-radius: 50%;
+}
+.seccionCategorias{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin-top: 80px;
+}
+.iconContainer{
+    display: grid;
+    justify-items: center;
+}
+.iconContainer p{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.icono{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 64px;
+    height: 48px;
+    border-radius: 24px;
+    margin-bottom: 8px;
+}
+.iconoCamara{
+    background-color: #E3F5FF;
+}
+.iconoConsola{
+    background-color: #F1FFF2;
+}
+.iconoCPU{
+    background-color: #F1FFF2;
+}
+.iconoAccesorio{
+    background-color: #FFE0E0;
+}
+.iconoAudifonos{
+    background-color: #F9E4D3;
+}
+.iconoDiscos{
+    background-color: #FBF2F4;
+}
+.iconoMonitores{
+    background-color: #F8F1FF;
+}
+.iconoMouse{
+    background-color: #E3F5FF;
+}
+.iconoTv{
+    background-color: #FFFAF5;
+}
+.iconoRouter{
+    background-color: #F8F1FF;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #000032;
+    height: 200px;
+}
+.contenedorProductos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    justify-items: center;
+    row-gap: 10px;
+}
+.ListaLinks{
+    list-style: none;
+    margin:0px;
+}
+.ListaLinks a{
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.listaDatos{
+    
+}
+.listaDatos p{
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+footer h2{
+    color: #F6A973;
+}
